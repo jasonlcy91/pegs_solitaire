@@ -1,0 +1,96 @@
+body {
+    background-image: url("../media/backgroud.png");
+}
+
+#input-id, #input-pass {
+    width: 12em;
+}
+
+#message {
+    color: red;
+}
+
+#game, #game_result {
+    float: left;
+    text-align: center;
+    background: url('../media/wood_lighting.jpg');
+    background-size: 100% 100%;
+}
+
+#finallook {
+    width:400px;
+    height:400px;
+}
+
+#finallook.fade {
+    top: 5%;
+    left: 200%;
+    transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+
+#finallook.fade.in {
+    left: 70%;
+}
+
+#game-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: #B94A48;
+    padding:0 2em;
+}
+
+#record, #controls {
+    float: left;
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 188px;
+}
+
+#logout {
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#record-title, #controls-title {
+    font-weight: bold;
+    color: white;
+    background: #468847;
+    padding:0 2em;
+    text-align: center;
+}
+
+table.pegs_board {
+    width: 100%;
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+td.cell {
+    border: 1px solid silver;
+    padding: 3px;
+    min-width: 55px;
+    height: 55px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+img.peg, img.pegs_result {
+    vertical-align: middle;
+}
+
+button#pauseTime, button#restartTime {
+    width:40%;
+    height:2em;
+}
+
+#highscore_table > thead td, #highscore_table > tfoot td {
+    cursor: pointer;
+}
+
+.f-label
+{
+    margin-top: 3px
+}
